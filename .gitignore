@@ -1,1 +1,16 @@
+# Ignore virtual environment folders
 venv/
+.venv/
+
+# In case the venv is inside a subdirectory
+**/venv/
+**/.venv/
+
+# Byte-compiled / optimized / DLL files
+_pycache_/
+*.py[cod]
+*$py.class
+
+# Pip environment files
+pip-log.txt
+pip-delete-this-directory.txt
